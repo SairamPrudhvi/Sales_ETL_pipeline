@@ -1,0 +1,39 @@
+2026-01-26 01:38:32,857 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/customers.csv
+2026-01-26 01:38:32,860 | INFO | Starting ingestion for customers.csv
+2026-01-26 01:38:33,464 | INFO | Successfully ingested customers.csv into sales_staging.customers_stage
+2026-01-26 01:38:33,464 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/products.csv
+2026-01-26 01:38:33,464 | INFO | Starting ingestion for products.csv
+2026-01-26 01:38:33,529 | INFO | Successfully ingested products.csv into sales_staging.products_stage
+2026-01-26 01:38:33,529 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/sales_transactions.csv
+2026-01-26 01:38:33,529 | INFO | Starting ingestion for sales_transactions.csv
+2026-01-26 01:38:33,535 | WARNING | Unknown file type. Skipping: sales_transactions.csv
+2026-01-26 01:45:16,699 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/customers.csv
+2026-01-26 01:45:16,700 | INFO | Starting ingestion for customers.csv
+2026-01-26 01:45:16,987 | INFO | Successfully ingested customers.csv into sales_staging.customers_stage
+2026-01-26 01:45:16,987 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/products.csv
+2026-01-26 01:45:16,987 | INFO | Starting ingestion for products.csv
+2026-01-26 01:45:17,035 | INFO | Successfully ingested products.csv into sales_staging.products_stage
+2026-01-26 01:45:17,035 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/sales_transactions.csv
+2026-01-26 01:45:17,035 | INFO | Starting ingestion for sales_transactions.csv
+2026-01-26 01:45:17,247 | INFO | Successfully ingested sales_transactions.csv into sales_staging.sales_transactions_stage
+2026-01-26 01:46:36,151 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/customers.csv
+2026-01-26 01:46:36,154 | INFO | Starting ingestion for customers.csv
+2026-01-26 01:46:36,278 | INFO | Successfully ingested customers.csv into sales_staging.customers_stage
+2026-01-26 01:46:36,278 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/sales_transactions.csv
+2026-01-26 01:46:36,278 | INFO | Starting ingestion for sales_transactions.csv
+2026-01-26 01:46:36,497 | INFO | Successfully ingested sales_transactions.csv into sales_staging.sales_transactions_stage
+2026-01-26 01:46:36,498 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/products.csv
+2026-01-26 01:46:36,498 | INFO | Starting ingestion for products.csv
+2026-01-26 01:46:36,538 | INFO | Successfully ingested products.csv into sales_staging.products_stage
+2026-01-26 12:43:18,485 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/customers.csv
+2026-01-26 12:43:18,487 | INFO | Starting ingestion for customers.csv
+2026-01-26 12:43:19,300 | INFO | Successfully ingested customers.csv into sales_staging.customers_stage
+2026-01-26 12:43:19,301 | INFO | Moved file to processed_files: raw_data/processed_files/customers.csv
+2026-01-26 12:43:19,301 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/products.csv
+2026-01-26 12:43:19,301 | INFO | Starting ingestion for products.csv
+2026-01-26 12:43:19,366 | INFO | Successfully ingested products.csv into sales_staging.products_stage
+2026-01-26 12:43:19,366 | INFO | Moved file to processed_files: raw_data/processed_files/products.csv
+2026-01-26 12:43:19,366 | INFO | New file detected: /Users/sairamprudhvikarri/Documents/01_Data_engineer_Learning/ETL_Project_end_to_end/raw_data/sales_transactions.csv
+2026-01-26 12:43:19,367 | INFO | Starting ingestion for sales_transactions.csv
+2026-01-26 12:43:19,612 | INFO | Successfully ingested sales_transactions.csv into sales_staging.sales_transactions_stage
+2026-01-26 12:43:19,612 | INFO | Moved file to processed_files: raw_data/processed_files/sales_transactions.csv

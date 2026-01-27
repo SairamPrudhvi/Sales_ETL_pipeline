@@ -1,0 +1,202 @@
+2026-01-27 01:04:24,644 | INFO | etl.pipeline | Starting extract stage
+2026-01-27 01:04:24,831 | INFO | etl.pipeline | Extract completed
+2026-01-27 01:04:24,832 | INFO | etl.pipeline | Starting validation stage
+2026-01-27 01:04:24,844 | WARNING | etl.dedup | Customer deduplication applied: 21 duplicate records rejected across 16 customer_ids
+2026-01-27 01:04:24,845 | WARNING | etl.dedup | Saved 21 duplicate customer records to rejected_data/customer_duplicates/rejected_customer_duplicates_20260127_060424.csv
+2026-01-27 01:04:24,851 | WARNING | etl.product_dedup | Product deduplication applied for product_id 5: 1 rows rejected
+2026-01-27 01:04:24,853 | WARNING | etl.product_dedup | Product deduplication applied for product_id 6: 2 rows rejected
+2026-01-27 01:04:24,856 | ERROR | etl.product_dedup | Rejected product_id 11: no valid product_name
+2026-01-27 01:04:24,857 | ERROR | etl.product_dedup | Rejected product_id 13: no valid product_name
+2026-01-27 01:04:24,857 | ERROR | etl.product_dedup | Rejected product_id 14: no valid product_name
+2026-01-27 01:04:24,861 | ERROR | etl.product_dedup | Rejected product_id 19: no valid product_name
+2026-01-27 01:04:24,862 | WARNING | etl.product_dedup | Product deduplication applied for product_id 20: 1 rows rejected
+2026-01-27 01:04:24,862 | ERROR | etl.product_dedup | Rejected product_id 21: no valid product_name
+2026-01-27 01:04:24,869 | ERROR | etl.product_dedup | Rejected product_id 29: no valid product_name
+2026-01-27 01:04:24,870 | WARNING | etl.product_dedup | Product deduplication applied for product_id 30: 1 rows rejected
+2026-01-27 01:04:24,872 | ERROR | etl.product_dedup | Rejected product_id 33: no valid product_name
+2026-01-27 01:04:24,873 | WARNING | etl.product_dedup | Product deduplication applied for product_id 34: 1 rows rejected
+2026-01-27 01:04:24,873 | ERROR | etl.product_dedup | Rejected product_id 35: no valid product_name
+2026-01-27 01:04:24,876 | WARNING | etl.product_dedup | Product deduplication applied for product_id 38: 1 rows rejected
+2026-01-27 01:04:24,878 | ERROR | etl.product_dedup | Rejected product_id 41: no valid product_name
+2026-01-27 01:04:24,879 | ERROR | etl.product_dedup | Rejected product_id 43: no valid product_name
+2026-01-27 01:04:24,880 | WARNING | etl.product_dedup | Product deduplication applied for product_id 44: 1 rows rejected
+2026-01-27 01:04:24,881 | ERROR | etl.product_dedup | Rejected product_id 46: no valid product_name
+2026-01-27 01:04:24,890 | ERROR | etl.product_dedup | Rejected product_id 57: no valid product_name
+2026-01-27 01:04:24,891 | ERROR | etl.product_dedup | Rejected product_id 59: no valid product_name
+2026-01-27 01:04:24,893 | WARNING | etl.product_dedup | Product deduplication applied for product_id 61: 1 rows rejected
+2026-01-27 01:04:24,893 | ERROR | etl.product_dedup | Rejected product_id 62: no valid product_name
+2026-01-27 01:04:24,894 | WARNING | etl.product_dedup | Product deduplication applied for product_id 63: 1 rows rejected
+2026-01-27 01:04:24,895 | ERROR | etl.product_dedup | Rejected product_id 65: no valid product_name
+2026-01-27 01:04:24,896 | ERROR | etl.product_dedup | Rejected product_id 66: no valid product_name
+2026-01-27 01:04:24,898 | ERROR | etl.product_dedup | Rejected product_id 69: no valid product_name
+2026-01-27 01:04:24,900 | ERROR | etl.product_dedup | Rejected product_id 70: no valid product_name
+2026-01-27 01:04:24,905 | ERROR | etl.product_dedup | Rejected product_id 77: no valid product_name
+2026-01-27 01:04:24,909 | ERROR | etl.product_dedup | Rejected product_id 80: no valid product_name
+2026-01-27 01:04:24,910 | WARNING | etl.product_dedup | Product deduplication applied for product_id 81: 1 rows rejected
+2026-01-27 01:04:24,915 | ERROR | etl.product_dedup | Rejected product_id 88: no valid product_name
+2026-01-27 01:04:24,916 | WARNING | etl.product_dedup | Product deduplication applied for product_id 89: 1 rows rejected
+2026-01-27 01:04:24,921 | WARNING | etl.product_dedup | Product deduplication applied for product_id 94: 1 rows rejected
+2026-01-27 01:04:24,925 | WARNING | etl.product_dedup | Product deduplication applied for product_id 99: 1 rows rejected
+2026-01-27 01:04:24,930 | ERROR | etl.product_dedup | Rejected product_id 106: no valid product_name
+2026-01-27 01:04:24,934 | ERROR | etl.product_dedup | Rejected product_id 112: no valid product_name
+2026-01-27 01:04:24,940 | ERROR | etl.product_dedup | Rejected product_id 121: no valid product_name
+2026-01-27 01:04:24,941 | ERROR | etl.product_dedup | Rejected product_id 123: no valid product_name
+2026-01-27 01:04:24,945 | ERROR | etl.product_dedup | Rejected product_id 130: no valid product_name
+2026-01-27 01:04:24,949 | ERROR | etl.product_dedup | Rejected product_id 136: no valid product_name
+2026-01-27 01:04:24,949 | ERROR | etl.product_dedup | Rejected product_id 137: no valid product_name
+2026-01-27 01:04:24,952 | ERROR | etl.product_dedup | Rejected product_id 141: no valid product_name
+2026-01-27 01:04:24,953 | ERROR | etl.product_dedup | Rejected product_id 143: no valid product_name
+2026-01-27 01:04:24,961 | ERROR | etl.product_dedup | Rejected product_id 155: no valid product_name
+2026-01-27 01:04:24,964 | ERROR | etl.product_dedup | Rejected product_id 159: no valid product_name
+2026-01-27 01:04:24,977 | ERROR | etl.product_dedup | Rejected product_id 176: no valid product_name
+2026-01-27 01:04:24,978 | ERROR | etl.product_dedup | Rejected product_id 178: no valid product_name
+2026-01-27 01:04:24,990 | ERROR | etl.product_dedup | Rejected product_id 194: no valid product_name
+2026-01-27 01:04:24,990 | ERROR | etl.product_dedup | Rejected product_id 195: no valid product_name
+2026-01-27 01:04:25,000 | ERROR | etl.product_dedup | Rejected product_id 209: no valid product_name
+2026-01-27 01:04:25,004 | ERROR | etl.product_dedup | Rejected product_id 215: no valid product_name
+2026-01-27 01:04:25,005 | ERROR | etl.product_dedup | Rejected product_id 216: no valid product_name
+2026-01-27 01:04:25,024 | ERROR | etl.product_dedup | Rejected product_id 241: no valid product_name
+2026-01-27 01:04:25,028 | ERROR | etl.product_dedup | Rejected product_id 247: no valid product_name
+2026-01-27 01:04:25,030 | ERROR | etl.product_dedup | Rejected product_id 250: no valid product_name
+2026-01-27 01:04:25,031 | ERROR | etl.product_dedup | Rejected product_id 252: no valid product_name
+2026-01-27 01:04:25,036 | ERROR | etl.product_dedup | Rejected product_id 258: no valid product_name
+2026-01-27 01:04:25,041 | ERROR | etl.product_dedup | Rejected product_id 265: no valid product_name
+2026-01-27 01:04:25,053 | ERROR | etl.product_dedup | Rejected product_id 280: no valid product_name
+2026-01-27 01:04:25,056 | ERROR | etl.product_dedup | Rejected product_id 284: no valid product_name
+2026-01-27 01:04:25,056 | ERROR | etl.product_dedup | Rejected product_id 285: no valid product_name
+2026-01-27 01:04:25,060 | ERROR | etl.product_dedup | Rejected product_id 291: no valid product_name
+2026-01-27 01:04:25,063 | ERROR | etl.product_dedup | Rejected product_id 295: no valid product_name
+2026-01-27 01:04:25,074 | ERROR | etl.product_dedup | Rejected product_id 310: no valid product_name
+2026-01-27 01:04:25,079 | ERROR | etl.product_dedup | Rejected product_id 318: no valid product_name
+2026-01-27 01:04:25,081 | ERROR | etl.product_dedup | Rejected product_id 321: no valid product_name
+2026-01-27 01:04:25,084 | ERROR | etl.product_dedup | Rejected product_id 325: no valid product_name
+2026-01-27 01:04:25,087 | ERROR | etl.product_dedup | Rejected product_id 329: no valid product_name
+2026-01-27 01:04:25,092 | ERROR | etl.product_dedup | Rejected product_id 336: no valid product_name
+2026-01-27 01:04:25,105 | ERROR | etl.product_dedup | Rejected product_id 353: no valid product_name
+2026-01-27 01:04:25,106 | ERROR | etl.product_dedup | Rejected product_id 355: no valid product_name
+2026-01-27 01:04:25,107 | ERROR | etl.product_dedup | Rejected product_id 357: no valid product_name
+2026-01-27 01:04:25,112 | ERROR | etl.product_dedup | Rejected product_id 366: no valid product_name
+2026-01-27 01:04:25,124 | ERROR | etl.product_dedup | Rejected product_id 383: no valid product_name
+2026-01-27 01:04:25,125 | ERROR | etl.product_dedup | Rejected product_id 384: no valid product_name
+2026-01-27 01:04:25,128 | ERROR | etl.product_dedup | Rejected product_id 389: no valid product_name
+2026-01-27 01:04:25,130 | ERROR | etl.product_dedup | Rejected product_id 392: no valid product_name
+2026-01-27 01:04:25,131 | ERROR | etl.product_dedup | Rejected product_id 394: no valid product_name
+2026-01-27 01:04:25,136 | ERROR | etl.product_dedup | Rejected product_id 401: no valid product_name
+2026-01-27 01:04:25,137 | ERROR | etl.product_dedup | Rejected product_id 402: no valid product_name
+2026-01-27 01:04:25,143 | ERROR | etl.product_dedup | Rejected product_id 411: no valid product_name
+2026-01-27 01:04:25,146 | ERROR | etl.product_dedup | Rejected product_id 415: no valid product_name
+2026-01-27 01:04:25,146 | ERROR | etl.product_dedup | Rejected product_id 416: no valid product_name
+2026-01-27 01:04:25,148 | ERROR | etl.product_dedup | Rejected product_id 419: no valid product_name
+2026-01-27 01:04:25,154 | ERROR | etl.product_dedup | Rejected product_id 429: no valid product_name
+2026-01-27 01:04:25,170 | ERROR | etl.product_dedup | Rejected product_id 451: no valid product_name
+2026-01-27 01:04:25,171 | ERROR | etl.product_dedup | Rejected product_id 454: no valid product_name
+2026-01-27 01:04:25,174 | ERROR | etl.product_dedup | Rejected product_id 458: no valid product_name
+2026-01-27 01:04:25,175 | ERROR | etl.product_dedup | Rejected product_id 461: no valid product_name
+2026-01-27 01:04:25,179 | ERROR | etl.product_dedup | Rejected product_id 468: no valid product_name
+2026-01-27 01:04:25,184 | ERROR | etl.product_dedup | Rejected product_id 475: no valid product_name
+2026-01-27 01:04:25,197 | ERROR | etl.product_dedup | Rejected product_id 493: no valid product_name
+2026-01-27 01:04:25,198 | ERROR | etl.product_dedup | Rejected product_id 494: no valid product_name
+2026-01-27 01:04:25,221 | ERROR | etl.product_dedup | Rejected product_id 523: no valid product_name
+2026-01-27 01:04:25,236 | ERROR | etl.product_dedup | Rejected product_id 547: no valid product_name
+2026-01-27 01:04:25,247 | ERROR | etl.product_dedup | Rejected product_id 563: no valid product_name
+2026-01-27 01:04:25,252 | ERROR | etl.product_dedup | Rejected product_id 570: no valid product_name
+2026-01-27 01:04:25,268 | ERROR | etl.product_dedup | Rejected product_id 592: no valid product_name
+2026-01-27 01:04:25,270 | ERROR | etl.product_dedup | Rejected product_id 596: no valid product_name
+2026-01-27 01:04:25,273 | ERROR | etl.product_dedup | Rejected product_id 601: no valid product_name
+2026-01-27 01:04:25,277 | ERROR | etl.product_dedup | Rejected product_id 607: no valid product_name
+2026-01-27 01:04:25,280 | ERROR | etl.product_dedup | Rejected product_id 611: no valid product_name
+2026-01-27 01:04:25,280 | ERROR | etl.product_dedup | Rejected product_id 613: no valid product_name
+2026-01-27 01:04:25,288 | ERROR | etl.product_dedup | Rejected product_id 624: no valid product_name
+2026-01-27 01:04:25,288 | ERROR | etl.product_dedup | Rejected product_id 625: no valid product_name
+2026-01-27 01:04:25,290 | ERROR | etl.product_dedup | Rejected product_id 627: no valid product_name
+2026-01-27 01:04:25,293 | ERROR | etl.product_dedup | Rejected product_id 632: no valid product_name
+2026-01-27 01:04:25,293 | ERROR | etl.product_dedup | Rejected product_id 633: no valid product_name
+2026-01-27 01:04:25,295 | ERROR | etl.product_dedup | Rejected product_id 636: no valid product_name
+2026-01-27 01:04:25,299 | ERROR | etl.product_dedup | Rejected product_id 642: no valid product_name
+2026-01-27 01:04:25,304 | ERROR | etl.product_dedup | Rejected product_id 649: no valid product_name
+2026-01-27 01:04:25,305 | ERROR | etl.product_dedup | Rejected product_id 651: no valid product_name
+2026-01-27 01:04:25,308 | ERROR | etl.product_dedup | Rejected product_id 656: no valid product_name
+2026-01-27 01:04:25,309 | ERROR | etl.product_dedup | Rejected product_id 658: no valid product_name
+2026-01-27 01:04:25,322 | ERROR | etl.product_dedup | Rejected product_id 678: no valid product_name
+2026-01-27 01:04:25,336 | ERROR | etl.product_dedup | Rejected product_id 697: no valid product_name
+2026-01-27 01:04:25,340 | ERROR | etl.product_dedup | Rejected product_id 703: no valid product_name
+2026-01-27 01:04:25,348 | ERROR | etl.product_dedup | Rejected product_id 715: no valid product_name
+2026-01-27 01:04:25,349 | ERROR | etl.product_dedup | Rejected product_id 717: no valid product_name
+2026-01-27 01:04:25,349 | ERROR | etl.product_dedup | Rejected product_id 718: no valid product_name
+2026-01-27 01:04:25,351 | ERROR | etl.product_dedup | Rejected product_id 721: no valid product_name
+2026-01-27 01:04:25,351 | ERROR | etl.product_dedup | Rejected product_id 722: no valid product_name
+2026-01-27 01:04:25,352 | ERROR | etl.product_dedup | Rejected product_id 724: no valid product_name
+2026-01-27 01:04:25,353 | ERROR | etl.product_dedup | Rejected product_id 725: no valid product_name
+2026-01-27 01:04:25,359 | ERROR | etl.product_dedup | Rejected product_id 734: no valid product_name
+2026-01-27 01:04:25,376 | ERROR | etl.product_dedup | Rejected product_id 759: no valid product_name
+2026-01-27 01:04:25,377 | ERROR | etl.product_dedup | Rejected product_id 761: no valid product_name
+2026-01-27 01:04:25,383 | ERROR | etl.product_dedup | Rejected product_id 770: no valid product_name
+2026-01-27 01:04:25,389 | ERROR | etl.product_dedup | Rejected product_id 778: no valid product_name
+2026-01-27 01:04:25,397 | ERROR | etl.product_dedup | Rejected product_id 791: no valid product_name
+2026-01-27 01:04:25,404 | ERROR | etl.product_dedup | Rejected product_id 800: no valid product_name
+2026-01-27 01:04:25,405 | ERROR | etl.product_dedup | Rejected product_id 802: no valid product_name
+2026-01-27 01:04:25,405 | ERROR | etl.product_dedup | Rejected product_id 803: no valid product_name
+2026-01-27 01:04:25,407 | ERROR | etl.product_dedup | Rejected product_id 808: no valid product_name
+2026-01-27 01:04:25,421 | ERROR | etl.product_dedup | Rejected product_id 827: no valid product_name
+2026-01-27 01:04:25,421 | ERROR | etl.product_dedup | Rejected product_id 828: no valid product_name
+2026-01-27 01:04:25,422 | ERROR | etl.product_dedup | Rejected product_id 830: no valid product_name
+2026-01-27 01:04:25,430 | ERROR | etl.product_dedup | Rejected product_id 841: no valid product_name
+2026-01-27 01:04:25,432 | ERROR | etl.product_dedup | Rejected product_id 844: no valid product_name
+2026-01-27 01:04:25,438 | ERROR | etl.product_dedup | Rejected product_id 853: no valid product_name
+2026-01-27 01:04:25,438 | ERROR | etl.product_dedup | Rejected product_id 854: no valid product_name
+2026-01-27 01:04:25,442 | ERROR | etl.product_dedup | Rejected product_id 859: no valid product_name
+2026-01-27 01:04:25,442 | ERROR | etl.product_dedup | Rejected product_id 860: no valid product_name
+2026-01-27 01:04:25,443 | ERROR | etl.product_dedup | Rejected product_id 861: no valid product_name
+2026-01-27 01:04:25,444 | ERROR | etl.product_dedup | Rejected product_id 863: no valid product_name
+2026-01-27 01:04:25,446 | ERROR | etl.product_dedup | Rejected product_id 867: no valid product_name
+2026-01-27 01:04:25,453 | ERROR | etl.product_dedup | Rejected product_id 876: no valid product_name
+2026-01-27 01:04:25,456 | ERROR | etl.product_dedup | Rejected product_id 879: no valid product_name
+2026-01-27 01:04:25,462 | ERROR | etl.product_dedup | Rejected product_id 887: no valid product_name
+2026-01-27 01:04:25,465 | ERROR | etl.product_dedup | Rejected product_id 891: no valid product_name
+2026-01-27 01:04:25,477 | ERROR | etl.product_dedup | Rejected product_id 907: no valid product_name
+2026-01-27 01:04:25,479 | ERROR | etl.product_dedup | Rejected product_id 909: no valid product_name
+2026-01-27 01:04:25,480 | ERROR | etl.product_dedup | Rejected product_id 911: no valid product_name
+2026-01-27 01:04:25,480 | ERROR | etl.product_dedup | Rejected product_id 913: no valid product_name
+2026-01-27 01:04:25,482 | ERROR | etl.product_dedup | Rejected product_id 916: no valid product_name
+2026-01-27 01:04:25,488 | ERROR | etl.product_dedup | Rejected product_id 923: no valid product_name
+2026-01-27 01:04:25,498 | ERROR | etl.product_dedup | Rejected product_id 937: no valid product_name
+2026-01-27 01:04:25,504 | ERROR | etl.product_dedup | Rejected product_id 945: no valid product_name
+2026-01-27 01:04:25,516 | ERROR | etl.product_dedup | Rejected product_id 961: no valid product_name
+2026-01-27 01:04:25,529 | ERROR | etl.product_dedup | Rejected product_id 979: no valid product_name
+2026-01-27 01:04:25,534 | ERROR | etl.product_dedup | Rejected product_id 985: no valid product_name
+2026-01-27 01:04:25,538 | ERROR | etl.product_dedup | Rejected product_id 990: no valid product_name
+2026-01-27 01:04:25,540 | ERROR | etl.product_dedup | Rejected product_id 993: no valid product_name
+2026-01-27 01:04:25,546 | ERROR | etl.product_dedup | Rejected product_id 1001: no valid product_name
+2026-01-27 01:04:25,551 | ERROR | etl.product_dedup | Rejected product_id 1007: no valid product_name
+2026-01-27 01:04:25,562 | ERROR | etl.product_dedup | Rejected product_id 1020: no valid product_name
+2026-01-27 01:04:25,570 | ERROR | etl.product_dedup | Rejected product_id 1029: no valid product_name
+2026-01-27 01:04:25,573 | ERROR | etl.product_dedup | Rejected product_id 1034: no valid product_name
+2026-01-27 01:04:25,575 | ERROR | etl.product_dedup | Rejected product_id 1038: no valid product_name
+2026-01-27 01:04:25,576 | ERROR | etl.product_dedup | Rejected product_id 1039: no valid product_name
+2026-01-27 01:04:25,583 | ERROR | etl.product_dedup | Rejected product_id 1049: no valid product_name
+2026-01-27 01:04:25,589 | ERROR | etl.product_dedup | Rejected product_id 1058: no valid product_name
+2026-01-27 01:04:25,601 | ERROR | etl.product_dedup | Rejected product_id 1075: no valid product_name
+2026-01-27 01:04:25,603 | ERROR | etl.product_dedup | Rejected product_id 1078: no valid product_name
+2026-01-27 01:04:25,603 | ERROR | etl.product_dedup | Rejected product_id 1079: no valid product_name
+2026-01-27 01:04:25,603 | ERROR | etl.product_dedup | Rejected product_id 1080: no valid product_name
+2026-01-27 01:04:25,610 | ERROR | etl.product_dedup | Rejected product_id 1091: no valid product_name
+2026-01-27 01:04:25,610 | ERROR | etl.product_dedup | Rejected product_id 1092: no valid product_name
+2026-01-27 01:04:25,613 | ERROR | etl.product_dedup | Rejected product_id 1096: no valid product_name
+2026-01-27 01:04:25,670 | ERROR | etl.product_dedup | Saved 185 rejected product records to rejected_data/product_duplicates/rejected_product_duplicates_20260127_060425.csv
+2026-01-27 01:04:25,672 | ERROR | etl.validate | Rejected 279 rows due to invalid dates
+2026-01-27 01:04:25,673 | ERROR | etl.sales_rejects | Detected 369 corrupt sales transactions
+2026-01-27 01:04:25,674 | ERROR | etl.sales_rejects | Saved 369 rejected sales transactions to rejected_data/sales_corrupt/rejected_sales_transactions_20260127_060425.csv
+2026-01-27 01:04:25,676 | ERROR | etl.validate | Rejected 1550 orphan transactions
+2026-01-27 01:04:25,688 | INFO | etl.pipeline | Validation completed
+2026-01-27 01:04:25,688 | INFO | etl.pipeline | Starting transform stage
+2026-01-27 01:04:25,690 | INFO | etl.transform.customer_transform | Customer transformation completed
+2026-01-27 01:04:25,692 | INFO | etl.transform.sales_transform | Sales transformation completed
+2026-01-27 01:04:25,695 | INFO | etl.pipeline | Transform completed
+2026-01-27 01:04:25,696 | INFO | etl.pipeline | Starting load stage
+2026-01-27 01:04:25,786 | INFO | etl.dw.load | DW tables created.
+2026-01-27 01:04:25,855 | INFO | etl.dw.load | Loaded 1079 new rows into dim_customer
+2026-01-27 01:04:25,922 | INFO | etl.dw.load | Loaded 915 new rows into dim_product
+2026-01-27 01:04:25,985 | INFO | etl.dw.load | Loaded 725 new rows into dim_date
+2026-01-27 01:04:26,255 | INFO | etl.dw.load | Loaded 3302 fact records into fact_sales
+2026-01-27 01:04:26,255 | INFO | etl.pipeline | Load completed
+2026-01-27 01:04:26,257 | INFO | etl.pipeline | Audit updated | processed=7700 rejected=2198 loaded=3302 status=SUCCESS
