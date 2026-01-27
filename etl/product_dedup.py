@@ -63,9 +63,8 @@ def resolve_duplicate_products(
     - If ALL rows for a product_id have invalid product_name → reject all
     - Else keep the best valid record:
         1. Valid product_name
-        2. Valid unit_price (>0)
-        3. Non-null category
-        4. Non-null brand
+        2. Non-null category
+        3. Non-null brand
     """
 
     df = products_df.copy()
