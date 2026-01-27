@@ -11,9 +11,9 @@ from sqlalchemy.engine import Engine
 from db.database import get_engine
 
 
-# =========================
+
 # CONFIG
-# =========================
+
 RAW_DATA_DIR = "raw_data"
 PROCESSED_DIR = os.path.join(RAW_DATA_DIR, "processed_files")
 STAGING_SCHEMA = "sales_staging"
@@ -25,9 +25,9 @@ os.makedirs(LOG_DIR, exist_ok=True)
 os.makedirs(PROCESSED_DIR, exist_ok=True)
 
 
-# =========================
+
 # LOGGING SETUP
-# =========================
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
@@ -40,9 +40,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# =========================
+
 # WATCHDOG HANDLER
-# =========================
+
 class RawDataHandler(FileSystemEventHandler):
     """
     Watches raw_data directory and ingests new CSV files

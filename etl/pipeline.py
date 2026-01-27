@@ -58,9 +58,9 @@ class SalesETLPipeline:
 
         self.rejected_records: List[pd.DataFrame] = []
 
-    # =========================
+    
     # EXTRACT
-    # =========================
+    
     def extract(self) -> None:
         logger.info("Starting extract stage")
 
@@ -87,9 +87,9 @@ class SalesETLPipeline:
 
         logger.info("Extract completed")
 
-    # =========================
+    
     # VALIDATE
-    # =========================
+    
 
     def validate(self) -> None:
         logger.info("Starting validation stage")
@@ -133,9 +133,9 @@ class SalesETLPipeline:
         save_rejected_batches(self.rejected_records)
         logger.info("Validation completed")
 
-    # =========================
+    
     # TRANSFORM
-    # =========================
+    
 
     def transform(self) -> None:
         logger.info("Starting transform stage")
@@ -149,9 +149,9 @@ class SalesETLPipeline:
         logger.info("Transform completed")
 
 
-    # =========================
+   
     # LOAD
-    # =========================
+    
     def load(self) -> None:
         logger.info("Starting load stage")
 

@@ -4,7 +4,7 @@ from watchdog.observers import Observer
 from etl.watchdog_ingest import RawDataHandler
 from db.database import get_engine
 
-RUN_DURATION_SECONDS = 60  # 1 minute
+RUN_DURATION_SECONDS = 60  
 
 def main() -> None:
     """

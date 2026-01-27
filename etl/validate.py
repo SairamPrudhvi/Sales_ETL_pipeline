@@ -32,9 +32,9 @@ import os
 
 logger = logging.getLogger(__name__)
 
-# =========================
+
 # SALES DTYPES
-# =========================
+
 def enforce_sales_dtypes(df: pd.DataFrame) -> pd.DataFrame:
     try:
         df["transaction_id"] = df["transaction_id"].astype(int)
@@ -53,9 +53,9 @@ def enforce_sales_dtypes(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-# =========================
+
 # CUSTOMERS DTYPES
-# =========================
+
 def enforce_customer_dtypes(df: pd.DataFrame) -> pd.DataFrame:
     """
     Enforce final customer table dtypes.
@@ -87,9 +87,9 @@ def enforce_customer_dtypes(df: pd.DataFrame) -> pd.DataFrame:
 
 
 
-# =========================
+
 # PRODUCTS DTYPES
-# =========================
+
 def enforce_product_dtypes(df: pd.DataFrame) -> pd.DataFrame:
     try:
         df["product_id"] = df["product_id"].astype(int)
@@ -114,9 +114,9 @@ def enforce_product_dtypes(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-# =========================
+
 # SCHEMA VALIDATION
-# =========================
+
 def validate_schema(
     df: pd.DataFrame,
     expected_schema: Dict[str, str],
@@ -130,9 +130,9 @@ def validate_schema(
     actual_columns = set(df.columns)
     expected_columns = set(expected_schema.keys())
 
-    # -------------------------
-    # Missing columns (HARD FAIL)
-    # -------------------------
+   
+    # Missing columns
+   
     missing_cols = expected_columns - actual_columns
     if missing_cols:
         logger.error(
@@ -142,18 +142,17 @@ def validate_schema(
             f"{table_name}: Missing required columns {missing_cols}"
         )
 
-    # -------------------------
-    # Extra columns (SOFT LOG)
-    # -------------------------
+   
+    # Extra columns 
+    
     extra_cols = actual_columns - expected_columns
     if extra_cols:
         logger.warning(
             f"{table_name}: Unexpected columns {extra_cols}"
         )
 
-    # -------------------------
-    # Dtype validation (SOFT)
-    # -------------------------
+   
+    # Dtype validation 
     for col, expected_dtype in expected_schema.items():
         actual_dtype = str(df[col].dtype)
 
@@ -183,9 +182,8 @@ def validate_schema(
 
 
 
-# =========================
+
 # EMPTY STRING HANDLING
-# =========================
 def normalize_empty_strings(df: pd.DataFrame) -> pd.DataFrame:
     """
     Replace empty or whitespace-only strings with NaN.
@@ -234,9 +232,7 @@ def impute_transaction_dates(
     return sales_df
 
 
-# =========================
 # DATA TYPE ENFORCEMENT
-# =========================
 def enforce_column_types(
     df: pd.DataFrame,
     type_map: Dict[str, str],
@@ -263,9 +259,8 @@ def enforce_column_types(
     return df
 
 
-# =========================
 # NUMERIC CLEANING
-# =========================
+
 def clean_numeric_fields(
     df: pd.DataFrame,
     quantity_col: str = "quantity",
@@ -318,9 +313,9 @@ def clean_product_numeric_fields(
     return df
 
 
-# =========================
+
 # DATE VALIDATION
-# =========================
+
 def validate_transaction_dates(
     df: pd.DataFrame,
     date_col: str = "transaction_date"
@@ -345,9 +340,9 @@ def validate_transaction_dates(
     return clean, rejected
 
 
-# =========================
+
 # CORRUPT TRANSACTION DETECTION
-# =========================
+
 def detect_corrupt_transactions(
     sales_df: pd.DataFrame
 ) -> Tuple[pd.DataFrame, pd.DataFrame]:
@@ -396,9 +391,9 @@ def detect_corrupt_transactions(
 
 
 
-# =========================
+
 # ORPHAN DETECTION
-# =========================
+
 def detect_orphan_transactions(
     sales_df: pd.DataFrame,
     customers_df: pd.DataFrame,
