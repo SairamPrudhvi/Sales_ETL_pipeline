@@ -90,7 +90,7 @@ class SalesETLPipeline:
     
     # VALIDATE
     
-
+    
     def validate(self) -> None:
         logger.info("Starting validation stage")
 
@@ -155,7 +155,7 @@ class SalesETLPipeline:
     def load(self) -> None:
         logger.info("Starting load stage")
 
-        create_dw_tables(self.engine)
+        create_dw_tables(self.engine)  
 
         load_dimension(self.engine, self.customers, "dim_customer", "customer_id")
         load_dimension(self.engine, self.products, "dim_product", "product_id")
